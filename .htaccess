@@ -1,0 +1,14 @@
+<IfModule mod_rewrite.c>
+	RewriteEngine on
+
+	# force to HTTPS (except for non-SNI browsers)
+    #RewriteCond %{HTTPS} off
+    #RewriteCond %{HTTP_USER_AGENT} !MSIE\ [5-8] [NC]
+    #RewriteCond %{HTTP_USER_AGENT} !Android.*(Mobile)?\ [0-3] [NC]
+    #RewriteCond %{HTTP_USER_AGENT} !^(.*.symbian.*) [NC]
+    #RewriteCond %{HTTP_USER_AGENT} !^(.*.blackberry.*) [NC]
+    #RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+	RewriteRule  ^$ public/    [L]
+	RewriteRule  (.*) public/$1 [L]
+</IfModule>
