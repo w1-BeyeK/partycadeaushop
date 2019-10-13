@@ -11,7 +11,7 @@
         <ul class="breadcrumb">
             <li class="active">
                 <i class="fa fa-adjust"></i>
-                <a href="/category">Categoriën</a>
+                <a href="/admin/category">Categoriën</a>
             </li>
         </ul>
     </div>
@@ -46,7 +46,7 @@
                         </div>
                     </div>
                     <div class="widget-body">
-                        <a href="/category/create" class="btn btn-primary" style="margin-bottom:10px;">Nieuw</a>
+                        <a href="/admin/category/create" class="btn btn-primary" style="margin-bottom:10px;">Nieuw</a>
                         <table class="table table-striped table-bordered table-hover" id="categoryDataTable">
                             <thead>
                             <tr>
