@@ -74,3 +74,8 @@ Route::get("/{category}", "Controller@index");
  * Ajax routes
  */
 Route::get("/ajax/menu/{domain_id}", "Ajax\MenuController@byDomain")->middleware("auth");
+Route::get("/ajax/menu/item/{menu_item_id}", "Ajax\MenuController@get")->middleware("auth");
+Route::post("/ajax/menu/{domain_id}/updatemenu", "Ajax\MenuController@update")->middleware("auth");
+Route::post("/ajax/menu/{domain_id}/add", "Ajax\MenuController@addMenuItem")->middleware("auth");
+Route::post("/ajax/menu/{menu_item_id}/update", "Ajax\MenuController@updateMenuItem")->middleware("auth");
+Route::post("/ajax/menu/{menu_item_id}/delete", "Ajax\MenuController@deleteMenuItem")->middleware("auth");

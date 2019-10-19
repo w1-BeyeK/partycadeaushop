@@ -2,6 +2,7 @@
 
 @section("viewcontent")
 @include("layouts.navbar")
+@csrf
 <!-- Main Container -->
 <div class="main-container container-fluid">
     <!-- Page Container -->
@@ -26,6 +27,12 @@
 @section("basejs")
     <script src="/beyondadmin/js/toastr/toastr.min.js"></script>
     <script>
+        $.ajaxSetup({
+            headers: {
+                'X-CSRF-TOKEN': $('input[name="_token"]').val()
+            }
+        });
+
         toastr.options = {
             "positionClass": "toast-top-right",
             "onclick": null,
