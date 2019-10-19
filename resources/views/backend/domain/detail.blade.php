@@ -119,56 +119,60 @@
                                                             </div>
                                                             <div class="dd2-content">{{ $menuItem->title }}
                                                                 <div style="float:right;">
-                                                                    <a href="#" class="edit"><i class="fa fa-pencil"></i></a>
-                                                                    <a href="#" class="confirm" data-action="/ajax/menu/{{ $menuItem->menu_item_id }}/delete"
+                                                                    <a href="#" class="edit"><i
+                                                                                class="fa fa-pencil"></i></a>
+                                                                    <a href="#" class="confirm"
+                                                                       data-action="/ajax/menu/{{ $menuItem->menu_item_id }}/delete"
                                                                        data-msg="Weet je zeker dat je dit menu item inclusief onderliggende items wilt verwijderen?"><i
                                                                                 class="fa fa-trash"></i></a>
                                                                 </div>
                                                             </div>
                                                             <ol class="dd-list" style="">
                                                                 @foreach($menuItem->children() as $child)
-                                                                <li class="dd-item dd2-item" data-id="{{ $child->menu_item_id }}">
-                                                                    <div class="dd-handle dd2-handle">
-                                                                        <i class="normal-icon fa fa-sitemap"></i>
+                                                                    <li class="dd-item dd2-item"
+                                                                        data-id="{{ $child->menu_item_id }}">
+                                                                        <div class="dd-handle dd2-handle">
+                                                                            <i class="normal-icon fa fa-sitemap"></i>
 
-                                                                        <i class="drag-icon fa fa-arrows-alt "></i>
-                                                                    </div>
-                                                                    <div class="dd2-content">{{ $child->title }}
-                                                                        <div style="float:right;">
-                                                                            <a href="#" class="edit"><i
-                                                                                        class="fa fa-pencil"></i></a>
-                                                                            <a href="#" class="confirm" data-action="/ajax/menu/{{ $child->menu_item_id }}/delete"
-                                                                               data-msg="Weet je zeker dat je dit menu item inclusief onderliggende items wilt verwijderen?"><i
-                                                                                        class="fa fa-trash"></i></a>
+                                                                            <i class="drag-icon fa fa-arrows-alt "></i>
                                                                         </div>
-                                                                    </div>
-                                                                    <ol class="dd-list">
-                                                                        @foreach($child->children() as $child_item)
-
-                                                                        <li class="dd-item dd2-item" data-id="{{ $child_item->menu_item_id }}">
-                                                                            <div class="dd-handle dd2-handle">
-                                                                                <i class="normal-icon fa fa-sitemap"></i>
-
-                                                                                <i class="drag-icon fa fa-arrows-alt "></i>
+                                                                        <div class="dd2-content">{{ $child->title }}
+                                                                            <div style="float:right;">
+                                                                                <a href="#" class="edit"><i
+                                                                                            class="fa fa-pencil"></i></a>
+                                                                                <a href="#" class="confirm"
+                                                                                   data-action="/ajax/menu/{{ $child->menu_item_id }}/delete"
+                                                                                   data-msg="Weet je zeker dat je dit menu item inclusief onderliggende items wilt verwijderen?"><i
+                                                                                            class="fa fa-trash"></i></a>
                                                                             </div>
-                                                                            <div class="dd2-content">
-                                                                                {{ $child_item->title }}
-                                                                                <div style="float:right;">
-                                                                                    <a href="#" class="edit"><i
-                                                                                                class="fa fa-pencil"></i></a>
-                                                                                    <a href="#" class="confirm" data-action="/ajax/menu/{{ $child_item->menu_item_id }}/delete"
-                                                                                       data-msg="Weet je zeker dat je dit menu item inclusief onderliggende items wilt verwijderen?"><i
-                                                                                                class="fa fa-trash"></i></a>
-                                                                                </div>
-                                                                            </div>
-                                                                        </li>
-                                                                        @endforeach
+                                                                        </div>
+                                                                        <ol class="dd-list">
+                                                                            @foreach($child->children() as $child_item)
 
-                                                                    </ol>
-                                                                </li>
+                                                                                <li class="dd-item dd2-item"
+                                                                                    data-id="{{ $child_item->menu_item_id }}">
+                                                                                    <div class="dd-handle dd2-handle">
+                                                                                        <i class="normal-icon fa fa-sitemap"></i>
+
+                                                                                        <i class="drag-icon fa fa-arrows-alt "></i>
+                                                                                    </div>
+                                                                                    <div class="dd2-content">
+                                                                                        {{ $child_item->title }}
+                                                                                        <div style="float:right;">
+                                                                                            <a href="#" class="edit"><i
+                                                                                                        class="fa fa-pencil"></i></a>
+                                                                                            <a href="#" class="confirm"
+                                                                                               data-action="/ajax/menu/{{ $child_item->menu_item_id }}/delete"
+                                                                                               data-msg="Weet je zeker dat je dit menu item inclusief onderliggende items wilt verwijderen?"><i
+                                                                                                        class="fa fa-trash"></i></a>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </li>
+                                                                            @endforeach
+
+                                                                        </ol>
+                                                                    </li>
                                                                 @endforeach
-                                                            </ol>
-
                                                             </ol>
                                                         </li>
                                                     @endforeach
@@ -198,28 +202,31 @@
     <script src="/js/menuitem.js"></script>
     <script>
         jQuery(function ($) {
-            $('.dd').nestable();
+            $('.dd').nestable({
+                group: 999,
+                maxDepth: 3,
+            });
             $('.dd-handle a').on('mousedown', function (e) {
                 e.stopPropagation();
             });
         });
 
-        $(".edit").on("click", function(e) {
+        $(".edit").on("click", function (e) {
             e.preventDefault();
             var id = $(this.closest(".dd2-item")).data("id");
 
             showEditModal(id);
         });
 
-        $(".confirm").on("click", function(e) {
+        $(".confirm").on("click", function (e) {
             e.preventDefault();
             let msg = $(this).data("msg");
             let action = $(this).data("action");
-            if(confirm(msg)) {
+            if (confirm(msg)) {
                 $.ajax({
                     url: action,
                     type: "POST",
-                    success: function() {
+                    success: function () {
                         location.reload();
                     }
                 })
@@ -234,7 +241,7 @@
                 data: {
                     menu: data
                 },
-                error: function() {
+                error: function () {
                     console.log("Something went wrong...");
                 }
             })
@@ -244,7 +251,7 @@
             $.ajax({
                 url: "/ajax/menu/{{ $domain->domain_id }}/add",
                 type: "POST",
-                success: function() {
+                success: function () {
                     location.reload();
                 }
             })
