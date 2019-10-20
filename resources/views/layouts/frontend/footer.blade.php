@@ -10,7 +10,7 @@
                     <div class="footer-widget text-var--2">
                         <div class="logo">
                             <a href="index.html">
-                                <img src="/brook/img/logo/brook-white2.png" alt="brook white">
+                                <img src="/img/logo.png" alt="brook white">
                             </a>
                         </div>
                         <div class="footer-inner">

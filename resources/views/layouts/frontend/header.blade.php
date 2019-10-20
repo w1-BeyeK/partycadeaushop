@@ -8,7 +8,7 @@
                     <div class="header-left">
                         <div class="logo">
                             <a href="index.html">
-                                <img src="/brook/img/logo/dark-retina-logo.png" alt="Brook Images">
+                                <img src="/img/logo.png" alt="Brook Images">
                             </a>
                         </div>
                     </div>

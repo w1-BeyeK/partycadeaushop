@@ -84,7 +84,8 @@
     <script src="/beyondadmin/js/datatable/dataTables.bootstrap.min.js"></script>
     <script>
 
-        $(".confirm").on("click", function() {
+        $(".confirm").on("click", function(e) {
+            e.preventDefault();
             let msg = $(this).data("msg");
             let action = $(this).data("action");
             if(confirm(msg)) {
