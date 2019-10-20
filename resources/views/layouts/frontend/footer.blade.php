@@ -21,14 +21,13 @@
 
                 <div class="col-lg-2 col-md-6 col-sm-6 col-12 mt_mobile--40">
                     <div class="footer-widget text-var--2 menu--about">
-                        <h2 class="widgettitle">Tadaaaa</h2>
+                        <h2 class="widgettitle">Informatie</h2>
                         <div class="footer-menu">
                             <ul class="ft-menu-list bk-hover">
-                                <li><a href="about.html">About Us</a></li>
-                                <li><a href="team.html">Team</a></li>
-                                <li><a href="#">Career</a></li>
-                                <li><a href="service.html">Services</a></li>
-                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="https://slinger-naamslinger.nl/contact/">Contact</a></li>
+                                <li><a href="https://slinger-naamslinger.nl/bedrijven/">Bedrijven</a></li>
+                                <li><a href="https://slinger-naamslinger.nl/verzenden-retouren/">Verzenden & Retouren</a></li>
+                                <li><a href="#">Services</a></li>
                             </ul>
                         </div>
                     </div>
@@ -36,12 +35,12 @@
 
                 <div class="col-lg-3 col-md-6 col-sm-6 col-12 mt_md--40 mt_sm--40">
                     <div class="footer-widget text-var--2 menu--contact">
-                        <h2 class="widgettitle">Contact</h2>
+                        <h2 class="widgettitle">Contactinformatie</h2>
                         <div class="footer-address">
                             <div class="bk-hover">
-                                <p>2005 Stokes Isle Apt. 896, <br> Venaville 10010, USA</p>
-                                <p><a href="#">info@yourdomain.com</a></p>
-                                <p><a href="#">(+68) 120034509</a></p>
+                                <p>2e Vijverstraat 2, <br> 5258HS Berlicum</p>
+                                <p><a href="#">info@partyslingers.nl</a></p>
+                                <p><a href="#">(+31) 0634101802</a></p>
                             </div>
                             <div class="social-share social--transparent text-white">
                                 <a href="#"><i class="fab fa-facebook"></i></a>
@@ -182,9 +181,9 @@
                 <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                     <div class="copyright-left text-md-left text-center">
                         <ul class="bk-copyright-menu d-flex bk-hover justify-content-center justify-content-md-start flex-wrap flex-sm-nowrap">
-                            <li><a href="#">Our blog</a></li>
-                            <li><a href="#">Latest projects</a></li>
-                            <li><a href="#">Contact us</a></li>
+                            <li><a href="#">  </a></li>
+                            <li><a href="#">Laatste projects</a></li>
+                            <li><a href="https://slinger-naamslinger.nl/verzenden-retouren/">Contact ons</a></li>
                         </ul>
                     </div>
                 </div>
