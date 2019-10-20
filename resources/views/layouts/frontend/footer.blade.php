@@ -14,8 +14,7 @@
                             </a>
                         </div>
                         <div class="footer-inner">
-                            <p>Brook is a multi-purpose WordPress theme for big and small-sized businesses. Enjoy
-                                the theme's original design, functional features & responsive layouts.</p>
+                            <p>Al onze slingers / traktaties en raamposters zijn geplastificeerd!</p>
                         </div>
                     </div>
                 </div>
