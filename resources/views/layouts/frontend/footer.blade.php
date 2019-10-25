@@ -189,7 +189,7 @@
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                     <div class="copyright-right text-md-right text-center">
-                        <p>© 2019 Brook. All Rights Reserved.</p>
+                        <p>© 2019 Partyslingers. Design by Kevin Beye.</p>
                     </div>
                 </div>
             </div>
