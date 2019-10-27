@@ -21,32 +21,43 @@ class Controller extends BaseController
         $status = session()->get("status");
         $user = Auth::user();
 
-        $category = Category::whereRaw("LOWER(value) = ?", strtolower($category))->where("portfolio", 1)->firstOrFail();
-        $items = Portfolio::where("category_id", $category->id)->get();
+        if($category) {
+            $category = Category::whereRaw("LOWER(value) = ?", strtolower($category))->where("portfolio", 1)->firstOrFail();
+            $items = Portfolio::where("category_id", $category->id)->get();
 
-        $data = new \stdClass();
-        $data->category = $category;
-        $data->portfolio_items = $items;
+            $data = new \stdClass();
+            $data->category = $category;
+            $data->portfolio_items = $items;
 
-        $keywords = array();
-        $total = 0;
-        foreach($items as $item) {
-            $item_keywords = explode(",", $item->keywords);
-            foreach($item_keywords as $keyword) {
-                if(empty($keywords[$keyword])) {
-                    $keywords[$keyword] = 1;
-                } else {
-                    $keywords[$keyword]++;
+            $keywords = array();
+            $total = 0;
+            foreach ($items as $item) {
+                $item_keywords = explode(",", $item->keywords);
+                foreach ($item_keywords as $keyword) {
+                    if (empty($keywords[$keyword])) {
+                        $keywords[$keyword] = 1;
+                    } else {
+                        $keywords[$keyword]++;
+                    }
+                    $total++;
                 }
-                $total++;
             }
-        }
-        ksort($keywords);
-        $data->keywords = $keywords;
-        $data->totalKeywords = $total;
+            ksort($keywords);
+            $data->keywords = $keywords;
+            $data->totalKeywords = $total;
 
-        return view("$this->model.index", array("active" => $this->model, "status" => $status, "user" => $user, "data" => $data, "menu_items" => $this->getMenu()));
+            return view("$this->model.index", array("active" => $this->model, "status" => $status, "user" => $user, "data" => $data, "menu_items" => $this->getMenu()));
+        }
 	}
+
+	public function home() {
+        $status = session()->get("status");
+        $user = Auth::user();
+
+        $categories = Category::where("portfolio", 1)->orderBy("value")->get();
+
+        return view("$this->model.home", array("active" => $this->model, "status" => $status, "user" => $user, "categories" => $categories));
+    }
 
 	private function getMenu() {
         return MenuItem::where("domain_id", 1)->orderBy("sequence")->get();

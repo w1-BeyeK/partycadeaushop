@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="/brook/css/custom.css">
 </head>
 
-<body class="template-color-1 template-font-1">
+<body class="template-color-1 template-font-1 vertical-geadient-home">
 
 <!-- Start PReloader -->
 <div id="page-preloader" class="page-loading clearfix">
@@ -40,10 +40,10 @@
 
 <!-- Wrapper -->
 <div id="wrapper" class="wrapper">
-
-    @include("layouts.frontend.header", array("menu_items" => $menu_items))
-
-    @include("layouts.frontend.mobile-menu", array("menu_items" => $menu_items))
+    @if(!empty($menu_items))
+        @include("layouts.frontend.header", array("menu_items" => $menu_items))
+        @include("layouts.frontend.mobile-menu", array("menu_items" => $menu_items))
+    @endif
 
     @yield("content")
 </div>
@@ -75,6 +75,8 @@
 <script src="/brook/js/revolution.extension.slideanims.min.js"></script>
 <script src="/brook/js/revolution.extension.video.min.js"></script>
 <script src="/brook/js/revoulation.js"></script>
+
+@yield("js")
 
 </body>
 

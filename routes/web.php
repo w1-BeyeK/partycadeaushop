@@ -68,6 +68,7 @@ Route::get("/admin/domain/delete/{id}", "Backend\domainController@delete")->midd
 /**
  * Frontend routes
  */
+Route::get("/", "Controller@home");
 Route::get("/{category}", "Controller@index");
 
 /**
