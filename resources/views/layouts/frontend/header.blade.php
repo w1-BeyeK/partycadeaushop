@@ -1,5 +1,5 @@
 <!-- Header -->
-<header class="br_header header-default header-transparent  black-logo--version haeder-fixed-width haeder-fixed-150 headroom--sticky header-mega-menu clearfix">
+<header class="br_header header-default header-transparent black-logo--version haeder-fixed-width haeder-fixed-150 headroom--sticky header-mega-menu clearfix headroom headroom--not-bottom headroom--pinned headroom--top">
     <div class="container-fluid">
         <div class="row">
             <div class="col-12">
@@ -7,7 +7,7 @@
                     <!-- Header Left -->
                     <div class="header-left">
                         <div class="logo">
-                            <a href="index.html">
+                            <a href="/">
                                 <img src="/img/logo.png" alt="Brook Images">
                             </a>
                         </div>

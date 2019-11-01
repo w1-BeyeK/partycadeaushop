@@ -21,7 +21,18 @@
     <link rel="stylesheet" href="/brook/style.css">
 
     <!-- Custom Styles -->
-    <link rel="stylesheet" href="/brook/css/custom.css">
+    <link rel="stylesheet" href="/brook/css/custom.css">.
+    <style>
+        .mega__width--fullscreen {
+            margin-top: -15px !important;
+        }
+
+
+
+        body {
+            line-height: 0px;
+        }
+    </style>
 </head>
 
 <body class="template-color-1 template-font-1 vertical-geadient-home">

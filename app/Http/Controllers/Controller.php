@@ -56,7 +56,7 @@ class Controller extends BaseController
 
         $categories = Category::where("portfolio", 1)->orderBy("value")->get();
 
-        return view("$this->model.home", array("active" => $this->model, "status" => $status, "user" => $user, "categories" => $categories));
+        return view("$this->model.home", array("active" => $this->model, "status" => $status, "user" => $user, "categories" => $categories, "menu_items" => $this->getMenu()));
     }
 
 	private function getMenu() {

@@ -1,601 +1,510 @@
-<!doctype html>
-<html class="no-js" lang="zxx">
+@extends("layouts.frontend.base")
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Vertical Slide Gradient Portfolio || Brook Multipurpose Bootstrap4 Template</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+@section("content")
+    <div class="slider-revoluation">
+        <div id="rev_slider_6_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container"
+             data-alias="home-start-ups"
+             data-source="gallery"
+             style="margin:0px auto;background:transparent;padding:0px;margin-top:0px;margin-bottom:0px;">
+            <!-- START REVOLUTION SLIDER 5.4.7 fullwidth mode -->
+            <div id="rev_slider_6_1" class="rev_slider fullwidthabanner" style="display:none;" data-version="5.4.7">
+                <ul>
+                    <!-- SLIDE  -->
+                    <li data-index="rs-12" data-transition="fade" data-slotamount="default" data-hideafterloop="0"
+                        data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300"
+                        data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2=""
+                        data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8=""
+                        data-param9="" data-param10="" data-description="">
+                        <!-- MAIN IMAGE -->
+                        <img src="/brook/img/revoulation/slider-home-start-ups-slide-01-bg.jpg" alt=""
+                             data-bgposition="left center"
+                             data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+                        <!-- LAYERS -->
 
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="/brook/img/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" href="/brook/img/icon.png">
+                        <!-- LAYER NR. 1 -->
+                        <div class="tp-caption   tp-resizeme" id="slide-12-layer-5"
+                             data-x="['center','center','center','center']"
+                             data-hoffset="['280','0','0','0']" data-y="['bottom','bottom','bottom','bottom']"
+                             data-voffset="['0','0','0','0']" data-width="none" data-height="none"
+                             data-whitespace="nowrap"
+                             data-type="image" data-basealign="slide" data-responsive_offset="on"
+                             data-frames='[{"delay":400,"speed":1000,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                             data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
+                             data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
+                             style="z-index: 5;"><img src="/brook/img/revoulation/slider-home-start-ups-slide-01-image-01.png"
+                                                      alt="" data-ww="['941px','536px','349px','349px']"
+                                                      data-hh="['830px','473px','308px','308px']"
+                                                      data-no-retina>
+                        </div>
 
-    <!-- Plugins -->
-    <link rel="stylesheet" href="/brook/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/brook/css/revoulation.css">
-    <link rel="stylesheet" href="/brook/css/plugins.css">
+                        <!-- LAYER NR. 2 -->
+                        <div class="tp-caption  " id="slide-12-layer-6" data-x="['left','center','center','center']"
+                             data-hoffset="['80','0','0','0']" data-y="['middle','top','top','top']"
+                             data-voffset="['-114','100','100','100']"
+                             data-fontsize="['55','47','39','31']" data-lineheight="['77','66','55','44']"
+                             data-width="['500','430','360','300']" data-height="['none','133','none','89']"
+                             data-whitespace="normal" data-type="text" data-responsive_offset="off"
+                             data-responsive="off"
+                             data-frames='[{"delay":400,"speed":1000,"frame":"0","from":"y:-50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                             data-textAlign="['inherit','center','center','center']" data-paddingtop="[0,0,0,0]"
+                             data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
+                             style="z-index: 6; min-width: 500px; max-width: 500px; white-space: normal; font-size: 55px; line-height: 77px; font-weight: 600; color: #222222; letter-spacing: 0px;">
+                            result-driven
+                            creative agency.
+                        </div>
 
-    <!-- Style Css -->
-    <link rel="stylesheet" href="/brook/style.css">
+                        <!-- LAYER NR. 3 -->
+                        <div class="tp-caption  startups-pra" id="slide-12-layer-7"
+                             data-x="['left','center','center','center']"
+                             data-hoffset="['80','0','0','0']" data-y="['middle','top','top','top']"
+                             data-voffset="['33','260','240','240']"
+                             data-fontsize="['20','20','18','16']" data-lineheight="['40','40','36','32']"
+                             data-width="['500','500','400','360']" data-height="none" data-whitespace="normal"
+                             data-type="text" data-responsive_offset="off" data-responsive="off"
+                             data-frames='[{"delay":900,"speed":1000,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                             data-textAlign="['inherit','center','center','center']" data-paddingtop="[0,0,0,0]"
+                             data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
+                             style="z-index: 7; min-width: 500px; max-width: 500px; white-space: normal; font-size: 20px; line-height: 40px; font-weight: 500; color: #999999; letter-spacing: 0px;">
+                            We design & build brands, campaigns & digital projects for businesses large & small
+                        </div>
 
-    <!-- Custom Styles -->
-    <link rel="stylesheet" href="/brook/css/custom.css">
-</head>
-
-<body class="template-color-1 template-font-1 vertical-geadient-home" data-hijacking="off" data-animation="rotate">
-<!--[if lte IE 9]>
-<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
-    your browser</a> to improve your experience and security.</p>
-<![endif]-->
-
-<!-- Start PReloader -->
-<div id="page-preloader" class="page-loading clearfix">
-    <div class="page-load-inner">
-        <div class="preloader-wrap">
-            <div class="wrap-2">
-                <div><img src="/brook/img/icons/brook-preloader.gif" alt="Brook Preloader"></div>
+                        <!-- LAYER NR. 4 -->
+                        <div class="tp-caption rev-btn " id="slide-12-layer-8"
+                             data-x="['left','center','center','center']"
+                             data-hoffset="['80','0','0','0']" data-y="['middle','top','top','top']"
+                             data-voffset="['157','380','360','360']"
+                             data-width="182" data-height="62" data-whitespace="nowrap" data-type="button"
+                             data-responsive_offset="off" data-responsive="off"
+                             data-frames='[{"delay":1400,"speed":1000,"frame":"0","from":"x:-50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"0","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgb(248,164,64);bg:rgba(248,164,64,0);"}]'
+                             data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]"
+                             data-paddingright="[20,20,20,20]" data-paddingbottom="[0,0,0,0]"
+                             data-paddingleft="[20,20,20,20]"
+                             style="z-index: 8; min-width: 182px; max-width: 182px; max-width: 62px; max-width: 62px; white-space: nowrap; font-size: 14px; line-height: 60px; font-weight: 600; color: rgba(255,255,255,1); background-color:rgb(248,164,64);border-color:rgb(248,164,64);border-style:solid;border-width:1px 1px 1px 1px;border-radius:40px 40px 40px 40px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">
+                            More
+                            about us
+                        </div>
+                    </li>
+                </ul>
+                <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>
             </div>
         </div>
+        <!-- END REVOLUTION SLIDER -->
     </div>
-</div>
-<!-- End PReloader -->
 
-<!-- Wrapper -->
-<div id="wrapper" class="wrapper">
+    <!-- Page Conttent -->
+    <main class="page-content" style="margin-top:25px;">
 
-    <!-- Header -->
-    <header class="br_header header-default header-transparent header-bar position-from--top black-logo--version haeder-fixed-width haeder-fixed-150 headroom--sticky header-mega-menu lg-not-transparent clearfix">
-        <div class="container-fluid">
+        <!-- Start Brand Stratagy Area -->
+        <div class="brook-stratagy-area bg_color--7">
             <div class="row">
-                <div class="col-12">
-                    <div class="header__wrapper">
-                        <!-- Header Left -->
-                        <div class="header-left">
-                            <div class="logo">
-                                <a href="index.html">
-                                    <img src="/brook/img/logo/brook-black.png" alt="Brook Images">
-                                </a>
+                <div class="col-lg-6">
+                    <div class="bk-stratagy-content max-width--600 float-right pt--120 pb--120 pr--160 pr_lg--30 pl_lg--30 pr_md--50 pl_md--50 pr_sm--30 pl_sm--30">
+                        <div class="content">
+                            <h3 class="heading heading-h3 line-height-1-42 yellow-color-2 wow move-up text-white">Brand
+                                strategy and digital creation.</h3>
+                            <div class="bkseparator--30"></div>
+                            <p class="bk_pra font-16 line-height-1-87 pr--30 wow move-up text-white">Our quality of
+                                service
+                                assessment involves controlling and managing resources to ensure customers'
+                                satisfaction.</p>
+                            <div class="bkseparator--40"></div>
+
+                            <!-- Start Single List -->
+                            <div class="bk-list--2 wow move-up">
+                                <div class="list-header with-ckeck check-yellow-color-2">
+                                    <div class="marker"></div>
+                                    <div class="title-wrap">
+                                        <h6 class="heading heading-h5 text-white">Business Architecture</h6>
+                                    </div>
+                                </div>
+                                <div class="list-header with-ckeck check-yellow-color-2">
+                                    <div class="marker"></div>
+                                    <div class="title-wrap">
+                                        <h6 class="heading heading-h5 text-white">Cognitive Architecture</h6>
+                                    </div>
+                                </div>
+                                <div class="list-header with-ckeck check-yellow-color-2">
+                                    <div class="marker"></div>
+                                    <div class="title-wrap">
+                                        <h6 class="heading heading-h5 text-white">Interior Architecture</h6>
+                                    </div>
+                                </div>
+
+                                <div class="list-header with-ckeck check-yellow-color-2">
+                                    <div class="marker"></div>
+                                    <div class="title-wrap">
+                                        <h6 class="heading heading-h5 text-white">Landscape Architecture</h6>
+                                    </div>
+                                </div>
+
+                                <div class="list-header with-ckeck check-yellow-color-2">
+                                    <div class="marker"></div>
+                                    <div class="title-wrap">
+                                        <h6 class="heading heading-h5 text-white">UI/UX designs</h6>
+                                    </div>
+                                </div>
                             </div>
+                            <!-- End Single List -->
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="bk-stratagy-thumb bg_image--25 ptb--180 h-100">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Brand Stratagy Area -->
+
+        <!-- Start Team Area -->
+        <div class="brook-team-area bg_color--1 ptb--60 ptb-sm--40 ptb-md--40 slick-arrow-hover">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="brook-section-title text-center">
+                            <h3 class="heading heading-h3 font-large">Teamwork makes the dream works</h3>
+                            <div class="bkseparator--25"></div>
+                            <div class="title-separator w--80 color-red"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="brook-element-carousel slick-arrow-center slick-arrow-triggle mt--80" data-slick-options='{
+                        "spaceBetween": 30,
+                        "slidesToShow": 5,
+                        "slidesToScroll": 1,
+                        "arrows": true,
+                        "infinite": true,
+                        "dots": false,
+                        "prevArrow": {"buttonClass": "slick-btn slick-prev", "iconClass": "ion ion-ios-arrow-back" },
+                        "nextArrow": {"buttonClass": "slick-btn slick-next", "iconClass": "ion ion-ios-arrow-forward" }
+                    }'
+                 data-slick-responsive='[
+                    {"breakpoint":1150, "settings": {"slidesToShow": 4}},
+                    {"breakpoint":890, "settings": {"slidesToShow": 3}},
+                    {"breakpoint":590, "settings": {"slidesToShow": 2}},
+                    {"breakpoint":480, "settings": {"slidesToShow": 1}}
+                    ]'>
+
+
+                <!-- Start Single Team -->
+                <div class="team team__style--3 move-up wow">
+                    <div class="thumb">
+                        <img src="/brook/img/team/team-3/team-1.jpg" alt="team Images">
+                        <div class="overlay red-color" style="background-image: url(/brook/img/team/team-3/team-1.jpg);"></div>
+                        <ul class="social-icon icon-solid-rounded icon-size-medium text-center">
+                            <li class="facebook"><a href="#" class="link" aria-label="Facebook"><i class="fab fa-facebook"></i></a></li>
+                            <li class="twitter"><a href="#" class="link" aria-label="Twitter"><i class="fab fa-twitter"></i></a></li>
+                            <li class="instagram"><a href="#" class="link" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="team-info text-center">
+                        <div class="info">
+                            <h5>John Doe</h5>
+                            <span>Founder</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Single Team -->
+
+                <!-- Start Single Team -->
+                <div class="team team__style--3 move-up wow">
+                    <div class="thumb">
+                        <img src="/brook/img/team/team-3/team-2.jpg" alt="team Images">
+                        <div class="overlay red-color" style="background-image: url(/brook/img/team/team-3/team-2.jpg);"></div>
+                        <ul class="social-icon icon-solid-rounded icon-size-medium text-center">
+                            <li class="facebook"><a href="#" class="link" aria-label="Facebook"><i class="fab fa-facebook"></i></a></li>
+                            <li class="twitter"><a href="#" class="link" aria-label="Twitter"><i class="fab fa-twitter"></i></a></li>
+                            <li class="instagram"><a href="#" class="link" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="team-info text-center">
+                        <div class="info">
+                            <h5>Kasahara May</h5>
+                            <span>Project manager</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Single Team -->
+
+                <!-- Start Single Team -->
+                <div class="team team__style--3 move-up wow">
+                    <div class="thumb">
+                        <img src="/brook/img/team/team-3/team-3.jpg" alt="team Images">
+                        <div class="overlay red-color" style="background-image: url(/brook/img/team/team-3/team-3.jpg);"></div>
+                        <ul class="social-icon icon-solid-rounded icon-size-medium text-center">
+                            <li class="facebook"><a href="#" class="link" aria-label="Facebook"><i class="fab fa-facebook"></i></a></li>
+                            <li class="twitter"><a href="#" class="link" aria-label="Twitter"><i class="fab fa-twitter"></i></a></li>
+                            <li class="instagram"><a href="#" class="link" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="team-info text-center">
+                        <div class="info">
+                            <h5>Blake Hamilton</h5>
+                            <span>Engineer</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Single Team -->
+
+                <!-- Start Single Team -->
+                <div class="team team__style--3 move-up wow">
+                    <div class="thumb">
+                        <img src="/brook/img/team/team-3/team-4.jpg" alt="team Images">
+                        <div class="overlay red-color" style="background-image: url(/brook/img/team/team-3/team-4.jpg);"></div>
+                        <ul class="social-icon icon-solid-rounded icon-size-medium text-center">
+                            <li class="facebook"><a href="#" class="link" aria-label="Facebook"><i class="fab fa-facebook"></i></a></li>
+                            <li class="twitter"><a href="#" class="link" aria-label="Twitter"><i class="fab fa-twitter"></i></a></li>
+                            <li class="instagram"><a href="#" class="link" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="team-info text-center">
+                        <div class="info">
+                            <h5>Sarah Vagan</h5>
+                            <span>Marketing</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Single Team -->
+
+                <!-- Start Single Team -->
+                <div class="team team__style--3 move-up wow">
+                    <div class="thumb">
+                        <img src="/brook/img/team/team-3/team-5.jpg" alt="team Images">
+                        <div class="overlay red-color" style="background-image: url(/brook/img/team/team-3/team-5.jpg);"></div>
+                        <ul class="social-icon icon-solid-rounded icon-size-medium text-center">
+                            <li class="facebook"><a href="#" class="link" aria-label="Facebook"><i class="fab fa-facebook"></i></a></li>
+                            <li class="twitter"><a href="#" class="link" aria-label="Twitter"><i class="fab fa-twitter"></i></a></li>
+                            <li class="instagram"><a href="#" class="link" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="team-info text-center">
+                        <div class="info">
+                            <h5>John Doe</h5>
+                            <span>Founder</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Single Team -->
+
+                <!-- Start Single Team -->
+                <div class="team team__style--3 move-up wow">
+                    <div class="thumb">
+                        <img src="/brook/img/team/team-3/team-6.jpg" alt="team Images">
+                        <div class="overlay red-color" style="background-image: url(/brook/img/team/team-3/team-6.jpg);"></div>
+                        <ul class="social-icon icon-solid-rounded icon-size-medium text-center">
+                            <li class="facebook"><a href="#" class="link" aria-label="Facebook"><i class="fab fa-facebook"></i></a></li>
+                            <li class="twitter"><a href="#" class="link" aria-label="Twitter"><i class="fab fa-twitter"></i></a></li>
+                            <li class="instagram"><a href="#" class="link" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="team-info text-center">
+                        <div class="info">
+                            <h5>John Doe</h5>
+                            <span>Founder</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Single Team -->
+
+            </div>
+        </div>
+        <!-- End Team Area -->
+
+        <!-- Start Portfolio Caption -->
+        <div class="bk-portfolio-with-caption-area pt--75 pt_md--40 pt_sm--30 pb--80 pb_md--50 pb_sm--30 bg_color--1 poss_relative bk-masonary-wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="brook-section-title text-center mb--60">
+                            <h3 class="heading heading-h3">Our featured works</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="messonry-button text-center mb--70">
+                            <button data-filter="*" class="is-checked"><span class="filter-text">All</span><span
+                                        class="filter-counter">6</span></button>
+                            <button data-filter=".cat--1"><span class="filter-text">Creative</span> <span
+                                        class="filter-counter">3</span></button>
+                            <button data-filter=".cat--2"><span class="filter-text">Design</span> <span
+                                        class="filter-counter">2</span></button>
+                            <button data-filter=".cat--3"><span class="filter-text">Digital</span> <span
+                                        class="filter-counter">4</span></button>
+                            <button data-filter=".cat--4"><span class="filter-text">Photography</span> <span
+                                        class="filter-counter">5</span></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="portfolio-grid-metro6 mesonry-list">
+
+                            <div class="resizer"></div>
+                            <!-- Start Single Portfolio -->
+                            <div class="portfolio-33-33 cat--1 cat--4">
+                                <div class="portfolio with-caption">
+                                    <div class="thumb video-with-thumb">
+                                        <a href="portfolio-details.html">
+                                            <img src="/brook/img/portfolio/grid/caption-1.jpg" alt="portfolio images">
+                                        </a>
+
+                                        <!-- Start Single Popup -->
+                                        <div class="video-btn position--center">
+                                            <a class="play__btn" href="https://www.youtube.com/watch?v=9No-FiEInLA">
+                                                <div class="video-icon yellow-color-2"></div>
+                                            </a>
+                                        </div>
+                                        <!-- End Single Popup -->
+
+                                    </div>
+                                    <div class="caption-bottom text-center">
+                                        <div class="info">
+                                            <h5 class="heading heading-h5"><a href="portfolio-details.html">The
+                                                    Language of
+                                                    Designs</a></h5>
+                                            <p class="bk_pra">Design</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Single Portfolio -->
+
+                            <!-- Start Single Portfolio -->
+                            <div class="portfolio-33-33 cat--2 cat--4">
+                                <div class="portfolio with-caption">
+                                    <div class="thumb">
+                                        <a href="portfolio-details.html">
+                                            <img src="/brook/img/portfolio/grid/caption-2.jpg" alt="portfolio images">
+                                        </a>
+                                    </div>
+                                    <div class="caption-bottom text-center">
+                                        <div class="info">
+                                            <h5 class="heading heading-h5"><a href="portfolio-details.html">B-sharp
+                                                    High-end Audio</a></h5>
+                                            <p class="bk_pra">Design</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Single Portfolio -->
+
+                            <!-- Start Single Portfolio -->
+                            <div class="portfolio-33-33 cat--1 cat--3">
+                                <div class="portfolio with-caption">
+                                    <div class="thumb">
+                                        <a href="portfolio-details.html">
+                                            <img src="/brook/img/portfolio/grid/caption-3.jpg" alt="portfolio images">
+                                        </a>
+                                    </div>
+                                    <div class="caption-bottom text-center">
+                                        <div class="info">
+                                            <h5 class="heading heading-h5"><a href="portfolio-details.html">TSmart
+                                                    Sound System</a></h5>
+                                            <p class="bk_pra">Design</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Single Portfolio -->
+
+                            <!-- Start Single Portfolio -->
+                            <div class="portfolio-33-33 cat--1 cat--3 cat--4">
+                                <div class="portfolio with-caption">
+                                    <div class="thumb video-with-thumb">
+                                        <a href="portfolio-details.html">
+                                            <img src="/brook/img/portfolio/grid/caption-4.jpg" alt="portfolio images">
+                                        </a>
+                                        <!-- Start Single Popup -->
+                                        <div class="video-btn position--center">
+                                            <a class="play__btn" href="https://www.youtube.com/watch?v=9No-FiEInLA">
+                                                <div class="video-icon yellow-color-2"></div>
+                                            </a>
+                                        </div>
+                                        <!-- End Single Popup -->
+                                    </div>
+                                    <div class="caption-bottom text-center">
+                                        <div class="info">
+                                            <h5 class="heading heading-h5"><a href="portfolio-details.html">Awe-inspiring
+                                                    Projects</a></h5>
+                                            <p class="bk_pra">Design</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Single Portfolio -->
+
+                            <!-- Start Single Portfolio -->
+                            <div class="portfolio-33-33 cat--2 cat--3 cat--4">
+                                <div class="portfolio with-caption">
+                                    <div class="thumb">
+                                        <a href="portfolio-details.html">
+                                            <img src="/brook/img/portfolio/grid/caption-5.jpg" alt="portfolio images">
+                                        </a>
+                                    </div>
+                                    <div class="caption-bottom text-center">
+                                        <div class="info">
+                                            <h5 class="heading heading-h5"><a href="portfolio-details.html">Gifts
+                                                    for Photography Lovers</a></h5>
+                                            <p class="bk_pra">Design</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Single Portfolio -->
+
+                            <!-- Start Single Portfolio -->
+                            <div class="portfolio-33-33 cat--3 cat--4">
+                                <div class="portfolio with-caption">
+                                    <div class="thumb">
+                                        <a href="portfolio-details.html">
+                                            <img src="/brook/img/portfolio/grid/caption-6.jpg" alt="portfolio images">
+                                        </a>
+                                    </div>
+                                    <div class="caption-bottom text-center">
+                                        <div class="info">
+                                            <h5 class="heading heading-h5"><a href="portfolio-details.html">Enchanting
+                                                    Portrait Hacks</a></h5>
+                                            <p class="bk_pra">Design</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Single Portfolio -->
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </header>
-    <!--// Header -->
+        <!-- End Portfolio Caption -->
 
-    <!-- Page Conttent -->
-    <main class="page-content">
-        <!-- Start Vertical Slide -->
-        <div class="vertical-slide-gradient-portfolio">
-
-            @php
-                $iterator = 0;
-            @endphp
-            @foreach($categories as $category)
-                @php
-                    $iterator++;
-                @endphp
-                <section class="cd-section visible" id="section{{ $iterator }}">
-                    <div>
-                        <div class="gradient-wrapper">
-                            <div class="post-info">
-                                <div class="inner">
-                                    <div class="main-info">
-                                        <div class="main-info-inner">
-                                            <h6>{{ $iterator }}/</h6>
-                                            <h2><a href="/{{ strtolower($category->value) }}">{{ $category->value }}</a></h2>
-                                            <a class="post-read-more" href="/{{ strtolower($category->value) }}">
-                                                <span class="btntext">Naar categorie</span>
-                                                <span class="btn-icon"></span>
-                                            </a>
-                                        </div>
-                                    </div>
-
-                                    <div class="post-feature post-feature--{{ $iterator % 3 + 1 }}">
-                                        <div class="post-gradient">
-                                            <div class="post-thumbnail">
-                                                <!-- TODO: IMAGE -->
-                                                <img src="/brook/img/slider/vertical-slide/gradient-1.jpg"
-                                                     alt="Multipurpose">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+        <!-- Start Call To Action -->
+        <div class="brook-call-to-action bg_color--13 ptb--70 bg-as-text2">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-sm-12 col-12">
+                        <div class="call-content text-center text-md-left text-center">
+                            <h4 class="heading heading-h4 text-white">Sign up for new updates from us.</h4>
                         </div>
                     </div>
-                </section>
-            @endforeach
-            <!-- .cd-vertical-nav -->
+                    <div class="col-lg-6 col-sm-12 col-12">
+                        <div class="text-center text-md-right text-center mt_sm--30 mt_md--40 contact-form contact-form--4 yellow-color-2">
+                            <form action="#">
+                                <div class="input-box">
+                                    <input type="email" placeholder="Your e-mail">
+                                    <button>Subscribe</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <!-- End Vertical Slide -->
+        <!-- End Call To Action -->
     </main>
     <!--// Page Conttent -->
-
-
-</div>
-
-
-<!--// Wrapper -->
-
-<!-- Js Files -->
-<script src="/brook/js/vendor/modernizr-3.6.0.min.js"></script>
-<script src="/brook/js/vendor/jquery.min.js"></script>
-<script src="/brook/js/popper.min.js"></script>
-<script src="/brook/js/bootstrap.min.js"></script>
-<script src="/brook/js/plugins.js"></script>
-<script src="/brook/js/main.js"></script>
-
-<!-- REVOLUTION JS FILES -->
-<script src="/brook/js/jquery.themepunch.tools.min.js"></script>
-<script src="/brook/js/jquery.themepunch.revolution.min.js"></script>
-
-<!-- SLIDER REVOLUTION 5.0 EXTENSIONS  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading) -->
-<script src="/brook/js/revolution.extension.actions.min.js"></script>
-<script src="/brook/js/revolution.extension.carousel.min.js"></script>
-<script src="/brook/js/revolution.extension.kenburn.min.js"></script>
-<script src="/brook/js/revolution.extension.layeranimation.min.js"></script>
-<script src="/brook/js/revolution.extension.migration.min.js"></script>
-<script src="/brook/js/revolution.extension.navigation.min.js"></script>
-<script src="/brook/js/revolution.extension.parallax.min.js"></script>
-<script src="/brook/js/revolution.extension.slideanims.min.js"></script>
-<script src="/brook/js/revolution.extension.video.min.js"></script>
-<script src="/brook/js/revoulation.js"></script>
-
-<script>
-    jQuery(document).ready(function ($) {
-        //variables
-        var hijacking = $('body').data('hijacking'),
-            animationType = $('body').data('animation'),
-            delta = 0,
-            scrollThreshold = 5,
-            actual = 1,
-            animating = false;
-
-        //DOM elements
-        var sectionsAvailable = $('.cd-section'),
-            verticalNav = $('.cd-vertical-nav'),
-            prevArrow = verticalNav.find('a.cd-prev'),
-            nextArrow = verticalNav.find('a.cd-next');
-
-
-        //check the media query and bind corresponding events
-        var MQ = deviceType(),
-            bindToggle = false;
-
-        bindEvents(MQ, true);
-
-        $(window).on('resize', function () {
-            MQ = deviceType();
-            bindEvents(MQ, bindToggle);
-            if (MQ == 'mobile') bindToggle = true;
-            if (MQ == 'desktop') bindToggle = false;
-        });
-
-        function bindEvents(MQ, bool) {
-
-            if (MQ == 'desktop' && bool) {
-                //bind the animation to the window scroll event, arrows click and keyboard
-                if (hijacking == 'on') {
-                    initHijacking();
-                    $(window).on('DOMMouseScroll mousewheel', scrollHijacking);
-                } else {
-                    scrollAnimation();
-                    $(window).on('scroll', scrollAnimation);
-                }
-                prevArrow.on('click', prevSection);
-                nextArrow.on('click', nextSection);
-
-                $(document).on('keydown', function (event) {
-                    if (event.which == '40' && !nextArrow.hasClass('inactive')) {
-                        event.preventDefault();
-                        nextSection();
-                    } else if (event.which == '38' && (!prevArrow.hasClass('inactive') || (
-                        prevArrow.hasClass('inactive') && $(window).scrollTop() !=
-                        sectionsAvailable.eq(0).offset().top))) {
-                        event.preventDefault();
-                        prevSection();
-                    }
-                });
-                //set navigation arrows visibility
-                checkNavigation();
-            } else if (MQ == 'mobile') {
-                //reset and unbind
-                resetSectionStyle();
-                $(window).off('DOMMouseScroll mousewheel', scrollHijacking);
-                $(window).off('scroll', scrollAnimation);
-                prevArrow.off('click', prevSection);
-                nextArrow.off('click', nextSection);
-                $(document).off('keydown');
-            }
-        }
-
-        function scrollAnimation() {
-            //normal scroll - use requestAnimationFrame (if defined) to optimize performance
-            (!window.requestAnimationFrame) ? animateSection() : window.requestAnimationFrame(animateSection);
-        }
-
-        function animateSection() {
-            var scrollTop = $(window).scrollTop(),
-                windowHeight = $(window).height(),
-                windowWidth = $(window).width();
-
-            sectionsAvailable.each(function () {
-                var actualBlock = $(this),
-                    offset = scrollTop - actualBlock.offset().top;
-
-                //according to animation type and window scroll, define animation parameters
-                var animationValues = setSectionAnimation(offset, windowHeight, animationType);
-
-                transformSection(actualBlock.children('div'), animationValues[0], animationValues[1],
-                    animationValues[2], animationValues[3], animationValues[4]);
-                (offset >= 0 && offset < windowHeight) ? actualBlock.addClass('visible') :
-                    actualBlock.removeClass('visible');
-            });
-
-            checkNavigation();
-        }
-
-        function transformSection(element, translateY, scaleValue, rotateXValue, opacityValue, boxShadow) {
-            //transform sections - normal scroll
-            element.velocity({
-                translateY: translateY + 'vh',
-                scale: scaleValue,
-                rotateX: rotateXValue,
-                opacity: opacityValue,
-                boxShadowBlur: boxShadow + 'px',
-                translateZ: 0,
-            }, 0);
-        }
-
-        function initHijacking() {
-            // initialize section style - scrollhijacking
-            var visibleSection = sectionsAvailable.filter('.visible'),
-                topSection = visibleSection.prevAll('.cd-section'),
-                bottomSection = visibleSection.nextAll('.cd-section'),
-                animationParams = selectAnimation(animationType, false),
-                animationVisible = animationParams[0],
-                animationTop = animationParams[1],
-                animationBottom = animationParams[2];
-
-            visibleSection.children('div').velocity(animationVisible, 1, function () {
-                visibleSection.css('opacity', 1);
-                topSection.css('opacity', 1);
-                bottomSection.css('opacity', 1);
-            });
-            topSection.children('div').velocity(animationTop, 0);
-            bottomSection.children('div').velocity(animationBottom, 0);
-        }
-
-        function scrollHijacking(event) {
-            // on mouse scroll - check if animate section
-            if (event.originalEvent.detail < 0 || event.originalEvent.wheelDelta > 0) {
-                delta--;
-                (Math.abs(delta) >= scrollThreshold) && prevSection();
-            } else {
-                delta++;
-                (delta >= scrollThreshold) && nextSection();
-            }
-            return false;
-        }
-
-        function prevSection(event) {
-            //go to previous section
-            typeof event !== 'undefined' && event.preventDefault();
-
-            var visibleSection = sectionsAvailable.filter('.visible'),
-                middleScroll = (hijacking == 'off' && $(window).scrollTop() != visibleSection.offset().top) ?
-                    true : false;
-            visibleSection = middleScroll ? visibleSection.next('.cd-section') : visibleSection;
-
-            var animationParams = selectAnimation(animationType, middleScroll, 'prev');
-            unbindScroll(visibleSection.prev('.cd-section'), animationParams[3]);
-
-            if (!animating && !visibleSection.is(":first-child")) {
-                animating = true;
-                visibleSection.removeClass('visible').children('div').velocity(animationParams[2],
-                    animationParams[3], animationParams[4])
-                    .end().prev('.cd-section').addClass('visible').children('div').velocity(animationParams[
-                    0], animationParams[3], animationParams[4], function () {
-                    animating = false;
-                    if (hijacking == 'off') $(window).on('scroll', scrollAnimation);
-                });
-
-                actual = actual - 1;
-            }
-
-            resetScroll();
-        }
-
-        function nextSection(event) {
-            //go to next section
-            typeof event !== 'undefined' && event.preventDefault();
-
-            var visibleSection = sectionsAvailable.filter('.visible'),
-                middleScroll = (hijacking == 'off' && $(window).scrollTop() != visibleSection.offset().top) ?
-                    true : false;
-
-            var animationParams = selectAnimation(animationType, middleScroll, 'next');
-            unbindScroll(visibleSection.next('.cd-section'), animationParams[3]);
-
-            if (!animating && !visibleSection.is(":last-of-type")) {
-                animating = true;
-                visibleSection.removeClass('visible').children('div').velocity(animationParams[1],
-                    animationParams[3], animationParams[4])
-                    .end().next('.cd-section').addClass('visible').children('div').velocity(animationParams[
-                    0], animationParams[3], animationParams[4], function () {
-                    animating = false;
-                    if (hijacking == 'off') $(window).on('scroll', scrollAnimation);
-                });
-
-                actual = actual + 1;
-            }
-            resetScroll();
-        }
-
-        function unbindScroll(section, time) {
-            //if clicking on navigation - unbind scroll and animate using custom velocity animation
-            if (hijacking == 'off') {
-                $(window).off('scroll', scrollAnimation);
-                (animationType == 'catch') ? $('body, html').scrollTop(section.offset().top) : section.velocity(
-                    "scroll", {
-                        duration: time
-                    });
-            }
-        }
-
-        function resetScroll() {
-            delta = 0;
-            checkNavigation();
-        }
-
-        function checkNavigation() {
-            //update navigation arrows visibility
-            (sectionsAvailable.filter('.visible').is(':first-of-type')) ? prevArrow.addClass('inactive') :
-                prevArrow.removeClass('inactive');
-            (sectionsAvailable.filter('.visible').is(':last-of-type')) ? nextArrow.addClass('inactive') :
-                nextArrow.removeClass('inactive');
-        }
-
-        function resetSectionStyle() {
-            //on mobile - remove style applied with jQuery
-            sectionsAvailable.children('div').each(function () {
-                $(this).attr('style', '');
-            });
-        }
-
-        function deviceType() {
-            //detect if desktop/mobile
-            return window.getComputedStyle(document.querySelector('body'), '::before').getPropertyValue(
-                'content').replace(/"/g, "").replace(/'/g, "");
-        }
-
-        function selectAnimation(animationName, middleScroll, direction) {
-            // select section animation - scrollhijacking
-            var animationVisible = 'translateNone',
-                animationTop = 'translateUp',
-                animationBottom = 'translateDown',
-                easing = 'ease',
-                animDuration = 800;
-
-            switch (animationName) {
-                case 'scaleDown':
-                    animationTop = 'scaleDown';
-                    easing = 'easeInCubic';
-                    break;
-                case 'rotate':
-                    if (hijacking == 'off') {
-                        animationTop = 'rotation.scroll';
-                        animationBottom = 'translateNone';
-                    } else {
-                        animationTop = 'rotation';
-                        easing = 'easeInCubic';
-                    }
-                    break;
-                case 'gallery':
-                    animDuration = 1500;
-                    if (middleScroll) {
-                        animationTop = 'scaleDown.moveUp.scroll';
-                        animationVisible = 'scaleUp.moveUp.scroll';
-                        animationBottom = 'scaleDown.moveDown.scroll';
-                    } else {
-                        animationVisible = (direction == 'next') ? 'scaleUp.moveUp' : 'scaleUp.moveDown';
-                        animationTop = 'scaleDown.moveUp';
-                        animationBottom = 'scaleDown.moveDown';
-                    }
-                    break;
-                case 'catch':
-                    animationVisible = 'translateUp.delay';
-                    break;
-                case 'opacity':
-                    animDuration = 700;
-                    animationTop = 'hide.scaleUp';
-                    animationBottom = 'hide.scaleDown';
-                    break;
-                case 'fixed':
-                    animationTop = 'translateNone';
-                    easing = 'easeInCubic';
-                    break;
-                case 'parallax':
-                    animationTop = 'translateUp.half';
-                    easing = 'easeInCubic';
-                    break;
-            }
-
-            return [animationVisible, animationTop, animationBottom, animDuration, easing];
-        }
-
-        function setSectionAnimation(sectionOffset, windowHeight, animationName) {
-            // select section animation - normal scroll
-            var scale = 1,
-                translateY = 100,
-                rotateX = '0deg',
-                opacity = 1,
-                boxShadowBlur = 0;
-
-            if (sectionOffset >= -windowHeight && sectionOffset <= 0) {
-                // section entering the viewport
-                translateY = (-sectionOffset) * 100 / windowHeight;
-
-                switch (animationName) {
-                    case 'scaleDown':
-                        scale = 1;
-                        opacity = 1;
-                        break;
-                    case 'rotate':
-                        translateY = 0;
-                        break;
-                    case 'gallery':
-                        if (sectionOffset >= -windowHeight && sectionOffset < -0.9 * windowHeight) {
-                            scale = -sectionOffset / windowHeight;
-                            translateY = (-sectionOffset) * 100 / windowHeight;
-                            boxShadowBlur = 400 * (1 + sectionOffset / windowHeight);
-                        } else if (sectionOffset >= -0.9 * windowHeight && sectionOffset < -0.1 *
-                            windowHeight) {
-                            scale = 0.9;
-                            translateY = -(9 / 8) * (sectionOffset + 0.1 * windowHeight) * 100 /
-                                windowHeight;
-                            boxShadowBlur = 40;
-                        } else {
-                            scale = 1 + sectionOffset / windowHeight;
-                            translateY = 0;
-                            boxShadowBlur = -400 * sectionOffset / windowHeight;
-                        }
-                        break;
-                    case 'catch':
-                        if (sectionOffset >= -windowHeight && sectionOffset < -0.75 * windowHeight) {
-                            translateY = 100;
-                            boxShadowBlur = (1 + sectionOffset / windowHeight) * 160;
-                        } else {
-                            translateY = -(10 / 7.5) * sectionOffset * 100 / windowHeight;
-                            boxShadowBlur = -160 * sectionOffset / (3 * windowHeight);
-                        }
-                        break;
-                    case 'opacity':
-                        translateY = 0;
-                        scale = (sectionOffset + 5 * windowHeight) * 0.2 / windowHeight;
-                        opacity = (sectionOffset + windowHeight) / windowHeight;
-                        break;
-                }
-
-            } else if (sectionOffset > 0 && sectionOffset <= windowHeight) {
-                //section leaving the viewport - still has the '.visible' class
-                translateY = (-sectionOffset) * 100 / windowHeight;
-
-                switch (animationName) {
-                    case 'scaleDown':
-                        scale = (1 - (sectionOffset * 0.3 / windowHeight)).toFixed(5);
-                        opacity = (1 - (sectionOffset / windowHeight)).toFixed(5);
-                        translateY = 0;
-                        boxShadowBlur = 40 * (sectionOffset / windowHeight);
-
-                        break;
-                    case 'rotate':
-                        opacity = (1 - (sectionOffset / windowHeight)).toFixed(5);
-                        rotateX = sectionOffset * 90 / windowHeight + 'deg';
-                        translateY = 0;
-                        break;
-                    case 'gallery':
-                        if (sectionOffset >= 0 && sectionOffset < 0.1 * windowHeight) {
-                            scale = (windowHeight - sectionOffset) / windowHeight;
-                            translateY = -(sectionOffset / windowHeight) * 100;
-                            boxShadowBlur = 400 * sectionOffset / windowHeight;
-                        } else if (sectionOffset >= 0.1 * windowHeight && sectionOffset < 0.9 *
-                            windowHeight) {
-                            scale = 0.9;
-                            translateY = -(9 / 8) * (sectionOffset - 0.1 * windowHeight / 9) * 100 /
-                                windowHeight;
-                            boxShadowBlur = 40;
-                        } else {
-                            scale = sectionOffset / windowHeight;
-                            translateY = -100;
-                            boxShadowBlur = 400 * (1 - sectionOffset / windowHeight);
-                        }
-                        break;
-                    case 'catch':
-                        if (sectionOffset >= 0 && sectionOffset < windowHeight / 2) {
-                            boxShadowBlur = sectionOffset * 80 / windowHeight;
-                        } else {
-                            boxShadowBlur = 80 * (1 - sectionOffset / windowHeight);
-                        }
-                        break;
-                    case 'opacity':
-                        translateY = 0;
-                        scale = (sectionOffset + 5 * windowHeight) * 0.2 / windowHeight;
-                        opacity = (windowHeight - sectionOffset) / windowHeight;
-                        break;
-                    case 'fixed':
-                        translateY = 0;
-                        break;
-                    case 'parallax':
-                        translateY = (-sectionOffset) * 50 / windowHeight;
-                        break;
-
-                }
-
-            } else if (sectionOffset < -windowHeight) {
-                //section not yet visible
-                translateY = 100;
-
-                switch (animationName) {
-                    case 'scaleDown':
-                        scale = 1;
-                        opacity = 1;
-                        break;
-                    case 'gallery':
-                        scale = 1;
-                        break;
-                    case 'opacity':
-                        translateY = 0;
-                        scale = 0.8;
-                        opacity = 0;
-                        break;
-                }
-
-            } else {
-                //section not visible anymore
-                translateY = -100;
-
-                switch (animationName) {
-                    case 'scaleDown':
-                        scale = 0;
-                        opacity = 0.7;
-                        translateY = 0;
-                        break;
-                    case 'rotate':
-                        translateY = 0;
-                        rotateX = '90deg';
-                        break;
-                    case 'gallery':
-                        scale = 1;
-                        break;
-                    case 'opacity':
-                        translateY = 0;
-                        scale = 1.2;
-                        opacity = 0;
-                        break;
-                    case 'fixed':
-                        translateY = 0;
-                        break;
-                    case 'parallax':
-                        translateY = -50;
-                        break;
-                }
-            }
-
-            return [translateY, scale, rotateX, opacity, boxShadowBlur];
-        }
-    });
-
-    /* Custom effects registration - feature available in the Velocity UI pack */
-    //none
-
-
-</script>
-
-</body>
-
-</html>
+    </div>
+@stop

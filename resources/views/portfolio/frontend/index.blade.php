@@ -1,11 +1,8 @@
 @extends("layouts.frontend.base")
 
 @section("content")
-    <style>
-        .mega__width--fullscreen {
-            margin-top: -15px !important;
-        }
 
+    <style>
         .resizer {
             width:25% !important;
         }
