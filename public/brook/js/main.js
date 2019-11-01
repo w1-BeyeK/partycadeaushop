@@ -656,7 +656,7 @@
             transitionDuration: '0.7s',
             masonry: {
                 // use outer width of grid-sizer for columnWidth
-                columnWidth: 1,
+                // columnWidth: 1,
             }
         });
     });

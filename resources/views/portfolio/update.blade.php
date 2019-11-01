@@ -67,6 +67,13 @@
                                            placeholder="Url..." value="{{ $portfolio->url }}">
                                 </div>
                                 <div class="form-group">
+                                    <label for="size">Grootte</label>
+                                    <select name="size" style="width:100%;">
+                                        <option value="small" {{ $portfolio->size == "small" ? "selected='selected'" : "" }}/> Klein
+                                        <option value="large" {{ $portfolio->size == "large" ? "selected='selected'" : "" }}/> Groot
+                                    </select>
+                                </div>
+                                <div class="form-group">
                                     <label for="keywords" class="control-label">Keywords</label>
                                     <input type="text" class="form-control" name="keywords" placeholder="Keywords..." value="{{ $portfolio->keywords }}" required/>
                                 </div>

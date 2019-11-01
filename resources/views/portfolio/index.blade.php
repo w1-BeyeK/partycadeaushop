@@ -63,7 +63,8 @@
                             <tbody>
                                 @foreach($portfolio_items as $item)
                                     <tr>
-                                        <td><img width="200px" height="auto" src="/storage/portfolio/{{$item->image}}"/></td>
+                                        {{--<td><img width="200px" height="auto" src="/storage/portfolio/{{$item->image}}"/></td>--}}
+                                        <td><img width="200px" height="auto" src="{{asset('storage/portfolio/'.$item->image)}}/"/></td>
                                         <td>{{ $item->title }}</td>
                                         <td>{{ $item->description }}</td>
                                         <td>

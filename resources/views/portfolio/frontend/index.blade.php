@@ -5,7 +5,18 @@
         .mega__width--fullscreen {
             margin-top: -15px !important;
         }
-    </style>   
+
+        .resizer {
+            width:25% !important;
+        }
+
+        .grid-small {
+            width:22%;
+        }
+        .grid-large {
+            width:50%;
+        }
+    </style>
 
     <!-- Start Breadcaump Area -->
     <div class="breadcaump-area pt--260 pb--80 pt_md--200 pt_sm--150 bg_color--1 breadcaump-title-bar">
@@ -46,7 +57,7 @@
 
             @foreach($data->portfolio_items as $portfolio_item)
                 <!-- Start Single Portfolio -->
-                    <div class="portfolio portfolio_style--1 portfolio-25 grid-width-2 {{ str_replace(",", " ", $portfolio_item->keywords) }}">
+                    <div class="portfolio portfolio_style--1 {{ $portfolio_item->size == "small" ? "grid-small" : "grid-large" }} {{ str_replace(",", " ", $portfolio_item->keywords) }}">
                         <div class="poss_relative">
                             <div class="thumb">
                                 <img src="/storage/portfolio/{{ $portfolio_item->image }}" alt="Portfolio Images">

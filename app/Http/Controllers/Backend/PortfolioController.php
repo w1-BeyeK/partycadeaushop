@@ -42,6 +42,7 @@ class PortfolioController extends BaseController
         $portfolio->category_id = $request->category;
         $portfolio->url = $request->url;
         $portfolio->description = $request->description;
+        $portfolio->size = $request->size;
 
         $imgName = $request->picture->getClientOriginalName();
         $portfolio->image = $imgName;
@@ -76,6 +77,7 @@ class PortfolioController extends BaseController
         $portfolio->category_id = $request->category;
         $portfolio->url = $request->url;
         $portfolio->description = $request->description;
+        $portfolio->size = $request->size;
 
         if($request->picture) {
             $imgName = $request->picture->getClientOriginalName();

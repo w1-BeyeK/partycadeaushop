@@ -67,6 +67,13 @@
                                            placeholder="Url...">
                                 </div>
                                 <div class="form-group">
+                                    <label for="size">Grootte</label>
+                                    <select name="size" style="width:100%;">
+                                        <option value="small"/> Klein
+                                        <option value="large"/> Groot
+                                    </select>
+                                </div>
+                                <div class="form-group">
                                     <label for="keywords" class="control-label">Keywords</label>
                                     <input type="text" class="form-control" name="keywords" placeholder="Keywords..." required/>
                                 </div>
