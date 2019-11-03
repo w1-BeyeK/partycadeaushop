@@ -73,6 +73,18 @@
                                         <option value="large" {{ $portfolio->size == "large" ? "selected='selected'" : "" }}/> Groot
                                     </select>
                                 </div>
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox" class="inverted" name="header" {{ $portfolio->header == 1 ? "checked='checked'" : "" }}>
+                                        <span class="text">Slider</span>
+                                    </label>
+                                </div>
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox" class="inverted" name="overview" {{ $portfolio->overview == 1 ? "checked='checked'" : "" }}>
+                                        <span class="text">Overzicht</span>
+                                    </label>
+                                </div>
                                 <div class="form-group">
                                     <label for="keywords" class="control-label">Keywords</label>
                                     <input type="text" class="form-control" name="keywords" placeholder="Keywords..." value="{{ $portfolio->keywords }}" required/>

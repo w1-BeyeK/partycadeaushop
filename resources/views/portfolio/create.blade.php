@@ -73,6 +73,18 @@
                                         <option value="large"/> Groot
                                     </select>
                                 </div>
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox" class="inverted" name="header">
+                                        <span class="text">Slider</span>
+                                    </label>
+                                </div>
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox" class="inverted" name="overview">
+                                        <span class="text">Overzicht</span>
+                                    </label>
+                                </div>
                                 <div class="form-group">
                                     <label for="keywords" class="control-label">Keywords</label>
                                     <input type="text" class="form-control" name="keywords" placeholder="Keywords..." required/>

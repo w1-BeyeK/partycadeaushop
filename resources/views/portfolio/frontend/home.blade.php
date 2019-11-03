@@ -31,7 +31,7 @@
                              data-frames='[{"delay":400,"speed":1000,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
                              data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
                              data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                             style="z-index: 5;"><img src="/brook/img/revoulation/slider-home-start-ups-slide-01-image-01.png"
+                             style="z-index: 5;"><img src="/img/main_image.jpg"
                                                       alt="" data-ww="['941px','536px','349px','349px']"
                                                       data-hh="['830px','473px','308px','308px']"
                                                       data-no-retina>
@@ -49,8 +49,8 @@
                              data-textAlign="['inherit','center','center','center']" data-paddingtop="[0,0,0,0]"
                              data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
                              style="z-index: 6; min-width: 500px; max-width: 500px; white-space: normal; font-size: 55px; line-height: 77px; font-weight: 600; color: #222222; letter-spacing: 0px;">
-                            result-driven
-                            creative agency.
+                            Portfolio
+                            Partyslingers
                         </div>
 
                         <!-- LAYER NR. 3 -->
@@ -65,24 +65,24 @@
                              data-textAlign="['inherit','center','center','center']" data-paddingtop="[0,0,0,0]"
                              data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
                              style="z-index: 7; min-width: 500px; max-width: 500px; white-space: normal; font-size: 20px; line-height: 40px; font-weight: 500; color: #999999; letter-spacing: 0px;">
-                            We design & build brands, campaigns & digital projects for businesses large & small
+                            Bekijk onze gepersonaliseerde <br>slingers, traktaties en meer!
                         </div>
 
                         <!-- LAYER NR. 4 -->
-                        <div class="tp-caption rev-btn " id="slide-12-layer-8"
-                             data-x="['left','center','center','center']"
-                             data-hoffset="['80','0','0','0']" data-y="['middle','top','top','top']"
-                             data-voffset="['157','380','360','360']"
-                             data-width="182" data-height="62" data-whitespace="nowrap" data-type="button"
-                             data-responsive_offset="off" data-responsive="off"
-                             data-frames='[{"delay":1400,"speed":1000,"frame":"0","from":"x:-50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"0","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgb(248,164,64);bg:rgba(248,164,64,0);"}]'
-                             data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]"
-                             data-paddingright="[20,20,20,20]" data-paddingbottom="[0,0,0,0]"
-                             data-paddingleft="[20,20,20,20]"
-                             style="z-index: 8; min-width: 182px; max-width: 182px; max-width: 62px; max-width: 62px; white-space: nowrap; font-size: 14px; line-height: 60px; font-weight: 600; color: rgba(255,255,255,1); background-color:rgb(248,164,64);border-color:rgb(248,164,64);border-style:solid;border-width:1px 1px 1px 1px;border-radius:40px 40px 40px 40px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">
-                            More
-                            about us
-                        </div>
+                        {{--<div class="tp-caption rev-btn " id="slide-12-layer-8"--}}
+                        {{--data-x="['left','center','center','center']"--}}
+                        {{--data-hoffset="['80','0','0','0']" data-y="['middle','top','top','top']"--}}
+                        {{--data-voffset="['157','380','360','360']"--}}
+                        {{--data-width="182" data-height="62" data-whitespace="nowrap" data-type="button"--}}
+                        {{--data-responsive_offset="off" data-responsive="off"--}}
+                        {{--data-frames='[{"delay":1400,"speed":1000,"frame":"0","from":"x:-50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"0","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgb(248,164,64);bg:rgba(248,164,64,0);"}]'--}}
+                        {{--data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]"--}}
+                        {{--data-paddingright="[20,20,20,20]" data-paddingbottom="[0,0,0,0]"--}}
+                        {{--data-paddingleft="[20,20,20,20]"--}}
+                        {{--style="z-index: 8; min-width: 182px; max-width: 182px; max-width: 62px; max-width: 62px; white-space: nowrap; font-size: 14px; line-height: 60px; font-weight: 600; color: rgba(255,255,255,1); background-color:rgb(248,164,64);border-color:rgb(248,164,64);border-style:solid;border-width:1px 1px 1px 1px;border-radius:40px 40px 40px 40px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">--}}
+                        {{--More--}}
+                        {{--about us--}}
+                        {{--</div>--}}
                     </li>
                 </ul>
                 <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>
@@ -97,16 +97,17 @@
         <!-- Start Brand Stratagy Area -->
         <div class="brook-stratagy-area bg_color--7">
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-6" style="background-color: #4cbded">
                     <div class="bk-stratagy-content max-width--600 float-right pt--120 pb--120 pr--160 pr_lg--30 pl_lg--30 pr_md--50 pl_md--50 pr_sm--30 pl_sm--30">
                         <div class="content">
-                            <h3 class="heading heading-h3 line-height-1-42 yellow-color-2 wow move-up text-white">Brand
-                                strategy and digital creation.</h3>
+                            {{--<h3 class="heading heading-h3 line-height-1-42 yellow-color-2 wow move-up text-white">--}}
+                            {{--Portfolio--}}
+                            {{--</h3>--}}
                             <div class="bkseparator--30"></div>
-                            <p class="bk_pra font-16 line-height-1-87 pr--30 wow move-up text-white">Our quality of
-                                service
-                                assessment involves controlling and managing resources to ensure customers'
-                                satisfaction.</p>
+                            <p class="bk_pra font-16 line-height-1-87 pr--30 wow move-up text-white"
+                               style="font-size:23px;">
+                                Bekijk hier onze gepersonaliseerde en op maat gemaakte creaties:
+                            </p>
                             <div class="bkseparator--40"></div>
 
                             <!-- Start Single List -->
@@ -114,33 +115,33 @@
                                 <div class="list-header with-ckeck check-yellow-color-2">
                                     <div class="marker"></div>
                                     <div class="title-wrap">
-                                        <h6 class="heading heading-h5 text-white">Business Architecture</h6>
+                                        <h6 class="heading heading-h5 text-white">Slingers</h6>
                                     </div>
                                 </div>
                                 <div class="list-header with-ckeck check-yellow-color-2">
                                     <div class="marker"></div>
                                     <div class="title-wrap">
-                                        <h6 class="heading heading-h5 text-white">Cognitive Architecture</h6>
+                                        <h6 class="heading heading-h5 text-white">Traktaties</h6>
                                     </div>
                                 </div>
                                 <div class="list-header with-ckeck check-yellow-color-2">
                                     <div class="marker"></div>
                                     <div class="title-wrap">
-                                        <h6 class="heading heading-h5 text-white">Interior Architecture</h6>
-                                    </div>
-                                </div>
-
-                                <div class="list-header with-ckeck check-yellow-color-2">
-                                    <div class="marker"></div>
-                                    <div class="title-wrap">
-                                        <h6 class="heading heading-h5 text-white">Landscape Architecture</h6>
+                                        <h6 class="heading heading-h5 text-white">Raamposters</h6>
                                     </div>
                                 </div>
 
                                 <div class="list-header with-ckeck check-yellow-color-2">
                                     <div class="marker"></div>
                                     <div class="title-wrap">
-                                        <h6 class="heading heading-h5 text-white">UI/UX designs</h6>
+                                        <h6 class="heading heading-h5 text-white">Kraamkado's</h6>
+                                    </div>
+                                </div>
+
+                                <div class="list-header with-ckeck check-yellow-color-2">
+                                    <div class="marker"></div>
+                                    <div class="title-wrap">
+                                        <h6 class="heading heading-h5 text-white">Bedrukte shirtjes</h6>
                                     </div>
                                 </div>
                             </div>
@@ -149,10 +150,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <div class="bk-stratagy-thumb bg_image--25 ptb--180 h-100">
+                <div class="col-lg-6" style="background-color:white;">
+                    <img src="/img/balloons.jpeg" width="100%" height="100%">
+                    {{--<div class="bk-stratagy-thumb bg_image--25 ptb--180 h-100">--}}
 
-                    </div>
+                    {{--</div>--}}
                 </div>
             </div>
         </div>
@@ -164,7 +166,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="brook-section-title text-center">
-                            <h3 class="heading heading-h3 font-large">Teamwork makes the dream works</h3>
+                            <h3 class="heading heading-h3 font-large">Laatst toegevoegde creaties</h3>
                             <div class="bkseparator--25"></div>
                             <div class="title-separator w--80 color-red"></div>
                         </div>
@@ -188,127 +190,28 @@
                     {"breakpoint":480, "settings": {"slidesToShow": 1}}
                     ]'>
 
-
+            @php
+            $i = 0;
+            @endphp
+            @foreach($latest as $item)
                 <!-- Start Single Team -->
-                <div class="team team__style--3 move-up wow">
-                    <div class="thumb">
-                        <img src="/brook/img/team/team-3/team-1.jpg" alt="team Images">
-                        <div class="overlay red-color" style="background-image: url(/brook/img/team/team-3/team-1.jpg);"></div>
-                        <ul class="social-icon icon-solid-rounded icon-size-medium text-center">
-                            <li class="facebook"><a href="#" class="link" aria-label="Facebook"><i class="fab fa-facebook"></i></a></li>
-                            <li class="twitter"><a href="#" class="link" aria-label="Twitter"><i class="fab fa-twitter"></i></a></li>
-                            <li class="instagram"><a href="#" class="link" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
-                        </ul>
-                    </div>
-                    <div class="team-info text-center">
-                        <div class="info">
-                            <h5>John Doe</h5>
-                            <span>Founder</span>
+                    <div class="team team__style--3 move-up wow">
+                        <div class="thumb">
+                            <img src="/storage/portfolio/{{ $item->image }}" alt="team Images">
+                            <ul class="social-icon icon-solid-rounded icon-size-medium text-center">
+                                <li class="twitter"><a href="{{ $item->url }}" class="link"><i
+                                                class="fa fa-arrow-right"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="team-info text-center">
+                            <div class="info">
+                                <h5>{{ $item->title }}</h5>
+                                <span>{{ $item->category()->value }}</span>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <!-- End Single Team -->
-
-                <!-- Start Single Team -->
-                <div class="team team__style--3 move-up wow">
-                    <div class="thumb">
-                        <img src="/brook/img/team/team-3/team-2.jpg" alt="team Images">
-                        <div class="overlay red-color" style="background-image: url(/brook/img/team/team-3/team-2.jpg);"></div>
-                        <ul class="social-icon icon-solid-rounded icon-size-medium text-center">
-                            <li class="facebook"><a href="#" class="link" aria-label="Facebook"><i class="fab fa-facebook"></i></a></li>
-                            <li class="twitter"><a href="#" class="link" aria-label="Twitter"><i class="fab fa-twitter"></i></a></li>
-                            <li class="instagram"><a href="#" class="link" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
-                        </ul>
-                    </div>
-                    <div class="team-info text-center">
-                        <div class="info">
-                            <h5>Kasahara May</h5>
-                            <span>Project manager</span>
-                        </div>
-                    </div>
-                </div>
-                <!-- End Single Team -->
-
-                <!-- Start Single Team -->
-                <div class="team team__style--3 move-up wow">
-                    <div class="thumb">
-                        <img src="/brook/img/team/team-3/team-3.jpg" alt="team Images">
-                        <div class="overlay red-color" style="background-image: url(/brook/img/team/team-3/team-3.jpg);"></div>
-                        <ul class="social-icon icon-solid-rounded icon-size-medium text-center">
-                            <li class="facebook"><a href="#" class="link" aria-label="Facebook"><i class="fab fa-facebook"></i></a></li>
-                            <li class="twitter"><a href="#" class="link" aria-label="Twitter"><i class="fab fa-twitter"></i></a></li>
-                            <li class="instagram"><a href="#" class="link" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
-                        </ul>
-                    </div>
-                    <div class="team-info text-center">
-                        <div class="info">
-                            <h5>Blake Hamilton</h5>
-                            <span>Engineer</span>
-                        </div>
-                    </div>
-                </div>
-                <!-- End Single Team -->
-
-                <!-- Start Single Team -->
-                <div class="team team__style--3 move-up wow">
-                    <div class="thumb">
-                        <img src="/brook/img/team/team-3/team-4.jpg" alt="team Images">
-                        <div class="overlay red-color" style="background-image: url(/brook/img/team/team-3/team-4.jpg);"></div>
-                        <ul class="social-icon icon-solid-rounded icon-size-medium text-center">
-                            <li class="facebook"><a href="#" class="link" aria-label="Facebook"><i class="fab fa-facebook"></i></a></li>
-                            <li class="twitter"><a href="#" class="link" aria-label="Twitter"><i class="fab fa-twitter"></i></a></li>
-                            <li class="instagram"><a href="#" class="link" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
-                        </ul>
-                    </div>
-                    <div class="team-info text-center">
-                        <div class="info">
-                            <h5>Sarah Vagan</h5>
-                            <span>Marketing</span>
-                        </div>
-                    </div>
-                </div>
-                <!-- End Single Team -->
-
-                <!-- Start Single Team -->
-                <div class="team team__style--3 move-up wow">
-                    <div class="thumb">
-                        <img src="/brook/img/team/team-3/team-5.jpg" alt="team Images">
-                        <div class="overlay red-color" style="background-image: url(/brook/img/team/team-3/team-5.jpg);"></div>
-                        <ul class="social-icon icon-solid-rounded icon-size-medium text-center">
-                            <li class="facebook"><a href="#" class="link" aria-label="Facebook"><i class="fab fa-facebook"></i></a></li>
-                            <li class="twitter"><a href="#" class="link" aria-label="Twitter"><i class="fab fa-twitter"></i></a></li>
-                            <li class="instagram"><a href="#" class="link" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
-                        </ul>
-                    </div>
-                    <div class="team-info text-center">
-                        <div class="info">
-                            <h5>John Doe</h5>
-                            <span>Founder</span>
-                        </div>
-                    </div>
-                </div>
-                <!-- End Single Team -->
-
-                <!-- Start Single Team -->
-                <div class="team team__style--3 move-up wow">
-                    <div class="thumb">
-                        <img src="/brook/img/team/team-3/team-6.jpg" alt="team Images">
-                        <div class="overlay red-color" style="background-image: url(/brook/img/team/team-3/team-6.jpg);"></div>
-                        <ul class="social-icon icon-solid-rounded icon-size-medium text-center">
-                            <li class="facebook"><a href="#" class="link" aria-label="Facebook"><i class="fab fa-facebook"></i></a></li>
-                            <li class="twitter"><a href="#" class="link" aria-label="Twitter"><i class="fab fa-twitter"></i></a></li>
-                            <li class="instagram"><a href="#" class="link" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
-                        </ul>
-                    </div>
-                    <div class="team-info text-center">
-                        <div class="info">
-                            <h5>John Doe</h5>
-                            <span>Founder</span>
-                        </div>
-                    </div>
-                </div>
-                <!-- End Single Team -->
-
+                    <!-- End Single Team -->
+                @endforeach
             </div>
         </div>
         <!-- End Team Area -->
@@ -319,23 +222,24 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="brook-section-title text-center mb--60">
-                            <h3 class="heading heading-h3">Our featured works</h3>
+                            <h3 class="heading heading-h3">Laatst toegevoegde slingers</h3>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="messonry-button text-center mb--70">
-                            <button data-filter="*" class="is-checked"><span class="filter-text">All</span><span
-                                        class="filter-counter">6</span></button>
-                            <button data-filter=".cat--1"><span class="filter-text">Creative</span> <span
-                                        class="filter-counter">3</span></button>
-                            <button data-filter=".cat--2"><span class="filter-text">Design</span> <span
-                                        class="filter-counter">2</span></button>
-                            <button data-filter=".cat--3"><span class="filter-text">Digital</span> <span
-                                        class="filter-counter">4</span></button>
-                            <button data-filter=".cat--4"><span class="filter-text">Photography</span> <span
-                                        class="filter-counter">5</span></button>
+                            <div class="messonry-button text-center mb--70">
+                                <button data-filter="*" class="is-checked"><span class="filter-text">Alle</span> <span
+                                            class="filter-counter">{{ $keywords->total }}</span></button>
+                                @foreach($keywords->items as $key => $value)
+
+                                    <button data-filter=".{{ strtolower($key) }}"><span
+                                                class="filter-text">{{ ucfirst($key) }}</span>
+                                        <span
+                                                class="filter-counter">{{ $value }}</span></button>
+                                @endforeach
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -344,166 +248,31 @@
                         <div class="portfolio-grid-metro6 mesonry-list">
 
                             <div class="resizer"></div>
-                            <!-- Start Single Portfolio -->
-                            <div class="portfolio-33-33 cat--1 cat--4">
-                                <div class="portfolio with-caption">
-                                    <div class="thumb video-with-thumb">
-                                        <a href="portfolio-details.html">
-                                            <img src="/brook/img/portfolio/grid/caption-1.jpg" alt="portfolio images">
-                                        </a>
 
-                                        <!-- Start Single Popup -->
-                                        <div class="video-btn position--center">
-                                            <a class="play__btn" href="https://www.youtube.com/watch?v=9No-FiEInLA">
-                                                <div class="video-icon yellow-color-2"></div>
+                            @foreach($overview as $item)
+                                <!-- Start Single Portfolio -->
+                                <div class="portfolio-33-33 {{ str_replace(",", " ", $item->keywords) }}">
+                                    <div class="portfolio with-caption">
+                                        <div class="thumb">
+                                            <a href="{{ $item->url }}">
+                                                <img src="/storage/portfolio/{{ $item->image }}" alt="portfolio images">
                                             </a>
                                         </div>
-                                        <!-- End Single Popup -->
-
-                                    </div>
-                                    <div class="caption-bottom text-center">
-                                        <div class="info">
-                                            <h5 class="heading heading-h5"><a href="portfolio-details.html">The
-                                                    Language of
-                                                    Designs</a></h5>
-                                            <p class="bk_pra">Design</p>
+                                        <div class="caption-bottom text-center">
+                                            <div class="info">
+                                                <h5 class="heading heading-h5"><a href="{{ $item->url }}">{{ $item->title }}</a></h5>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <!-- End Single Portfolio -->
-
-                            <!-- Start Single Portfolio -->
-                            <div class="portfolio-33-33 cat--2 cat--4">
-                                <div class="portfolio with-caption">
-                                    <div class="thumb">
-                                        <a href="portfolio-details.html">
-                                            <img src="/brook/img/portfolio/grid/caption-2.jpg" alt="portfolio images">
-                                        </a>
-                                    </div>
-                                    <div class="caption-bottom text-center">
-                                        <div class="info">
-                                            <h5 class="heading heading-h5"><a href="portfolio-details.html">B-sharp
-                                                    High-end Audio</a></h5>
-                                            <p class="bk_pra">Design</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End Single Portfolio -->
-
-                            <!-- Start Single Portfolio -->
-                            <div class="portfolio-33-33 cat--1 cat--3">
-                                <div class="portfolio with-caption">
-                                    <div class="thumb">
-                                        <a href="portfolio-details.html">
-                                            <img src="/brook/img/portfolio/grid/caption-3.jpg" alt="portfolio images">
-                                        </a>
-                                    </div>
-                                    <div class="caption-bottom text-center">
-                                        <div class="info">
-                                            <h5 class="heading heading-h5"><a href="portfolio-details.html">TSmart
-                                                    Sound System</a></h5>
-                                            <p class="bk_pra">Design</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End Single Portfolio -->
-
-                            <!-- Start Single Portfolio -->
-                            <div class="portfolio-33-33 cat--1 cat--3 cat--4">
-                                <div class="portfolio with-caption">
-                                    <div class="thumb video-with-thumb">
-                                        <a href="portfolio-details.html">
-                                            <img src="/brook/img/portfolio/grid/caption-4.jpg" alt="portfolio images">
-                                        </a>
-                                        <!-- Start Single Popup -->
-                                        <div class="video-btn position--center">
-                                            <a class="play__btn" href="https://www.youtube.com/watch?v=9No-FiEInLA">
-                                                <div class="video-icon yellow-color-2"></div>
-                                            </a>
-                                        </div>
-                                        <!-- End Single Popup -->
-                                    </div>
-                                    <div class="caption-bottom text-center">
-                                        <div class="info">
-                                            <h5 class="heading heading-h5"><a href="portfolio-details.html">Awe-inspiring
-                                                    Projects</a></h5>
-                                            <p class="bk_pra">Design</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End Single Portfolio -->
-
-                            <!-- Start Single Portfolio -->
-                            <div class="portfolio-33-33 cat--2 cat--3 cat--4">
-                                <div class="portfolio with-caption">
-                                    <div class="thumb">
-                                        <a href="portfolio-details.html">
-                                            <img src="/brook/img/portfolio/grid/caption-5.jpg" alt="portfolio images">
-                                        </a>
-                                    </div>
-                                    <div class="caption-bottom text-center">
-                                        <div class="info">
-                                            <h5 class="heading heading-h5"><a href="portfolio-details.html">Gifts
-                                                    for Photography Lovers</a></h5>
-                                            <p class="bk_pra">Design</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End Single Portfolio -->
-
-                            <!-- Start Single Portfolio -->
-                            <div class="portfolio-33-33 cat--3 cat--4">
-                                <div class="portfolio with-caption">
-                                    <div class="thumb">
-                                        <a href="portfolio-details.html">
-                                            <img src="/brook/img/portfolio/grid/caption-6.jpg" alt="portfolio images">
-                                        </a>
-                                    </div>
-                                    <div class="caption-bottom text-center">
-                                        <div class="info">
-                                            <h5 class="heading heading-h5"><a href="portfolio-details.html">Enchanting
-                                                    Portrait Hacks</a></h5>
-                                            <p class="bk_pra">Design</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End Single Portfolio -->
+                                <!-- End Single Portfolio -->
+                            @endforeach
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <!-- End Portfolio Caption -->
-
-        <!-- Start Call To Action -->
-        <div class="brook-call-to-action bg_color--13 ptb--70 bg-as-text2">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-6 col-sm-12 col-12">
-                        <div class="call-content text-center text-md-left text-center">
-                            <h4 class="heading heading-h4 text-white">Sign up for new updates from us.</h4>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-sm-12 col-12">
-                        <div class="text-center text-md-right text-center mt_sm--30 mt_md--40 contact-form contact-form--4 yellow-color-2">
-                            <form action="#">
-                                <div class="input-box">
-                                    <input type="email" placeholder="Your e-mail">
-                                    <button>Subscribe</button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- End Call To Action -->
     </main>
     <!--// Page Conttent -->
     </div>

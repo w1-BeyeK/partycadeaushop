@@ -33,6 +33,8 @@
             line-height: 0px;
         }
     </style>
+    <link rel="stylesheet" href="https://use.fontawesome.com/8ed355fa95.css">
+    <script src="https://use.fontawesome.com/b43469859c.js"></script>
 </head>
 
 <body class="template-color-1 template-font-1 vertical-geadient-home">

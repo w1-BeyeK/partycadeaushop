@@ -43,6 +43,8 @@ class PortfolioController extends BaseController
         $portfolio->url = $request->url;
         $portfolio->description = $request->description;
         $portfolio->size = $request->size;
+        $portfolio->header = ($request->header == "on") ? 1 : 0;
+        $portfolio->overview = ($request->overview == "on") ? 1 : 0;
 
         $imgName = $request->picture->getClientOriginalName();
         $portfolio->image = $imgName;
@@ -78,6 +80,8 @@ class PortfolioController extends BaseController
         $portfolio->url = $request->url;
         $portfolio->description = $request->description;
         $portfolio->size = $request->size;
+        $portfolio->header = ($request->header == "on") ? 1 : 0;
+        $portfolio->overview = ($request->overview == "on") ? 1 : 0;
 
         if($request->picture) {
             $imgName = $request->picture->getClientOriginalName();
@@ -100,6 +104,6 @@ class PortfolioController extends BaseController
     }
 
     private function trimKeywords($keywords) {
-        return str_replace(" ", ",", trim($keywords));
+        return str_replace(",,", ",", str_replace(" ", ",", trim($keywords)));
     }
 }

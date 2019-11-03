@@ -10,6 +10,7 @@ use Illuminate\Routing\Controller as BaseController;
 use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Support\Facades\Auth;
+use stdClass;
 
 class Controller extends BaseController
 {
@@ -39,8 +40,8 @@ class Controller extends BaseController
                     } else {
                         $keywords[$keyword]++;
                     }
-                    $total++;
                 }
+                $total++;
             }
             ksort($keywords);
             $data->keywords = $keywords;
@@ -56,7 +57,34 @@ class Controller extends BaseController
 
         $categories = Category::where("portfolio", 1)->orderBy("value")->get();
 
-        return view("$this->model.home", array("active" => $this->model, "status" => $status, "user" => $user, "categories" => $categories, "menu_items" => $this->getMenu()));
+        $overview_items =  Portfolio::overview();
+
+        $keywords = new \stdClass();
+        $keywords->total = 0;
+        $keywords->items = array();
+        foreach ($overview_items as $item) {
+            $item_keywords = explode(",", $item->keywords);
+            foreach ($item_keywords as $keyword) {
+                if (empty($keywords->items[$keyword])) {
+                    $keywords->items[$keyword] = 1;
+                } else {
+                    $keywords->items[$keyword]++;
+                }
+            }
+            $keywords->total++;
+        }
+        ksort($keywords->items);
+
+        return view("$this->model.home",
+            array(
+                "active" => $this->model,
+                "status" => $status,
+                "user" => $user,
+                "categories" => $categories,
+                "latest" => Portfolio::headers(),
+                "overview" => $overview_items,
+                "keywords" => $keywords,
+                "menu_items" => $this->getMenu()));
     }
 
 	private function getMenu() {
