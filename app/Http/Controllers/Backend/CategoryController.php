@@ -21,7 +21,7 @@ class CategoryController extends BaseController
         $status = session()->get("status");
         $user = Auth::user();
 
-        $categories = Category::all();
+        $categories = Category::orderByDesc("updated_at")->get();
 
         return view("$this->model.index", array("active" => $this->model, "status" => $status, "user" => $user, "categories" => $categories));
     }

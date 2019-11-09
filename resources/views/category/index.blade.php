@@ -53,6 +53,8 @@
                                 <th>
                                     Categorie
                                 </th>
+                                <th width="200px">Aangemaakt op</th>
+                                <th width="200px">Laatst geüpdate</th>
                                 <th width="100px;">Acties</th>
                             </tr>
                             </thead>
@@ -60,6 +62,8 @@
                                 @foreach($categories as $category)
                                     <tr>
                                         <td>{{ $category->value }}</td>
+                                        <td>{{ $category->created_at }}</td>
+                                        <td>{{ $category->updated_at }}</td>
                                         <td>
                                             <a href="/admin/category/update/{{ $category->id }}"><i class="fa fa-pencil"></i></a> |
                                             <a href="#" class="confirm" data-action="/admin/category/delete/{{ $category->id }}" data-msg="Weet je zeker dat je deze categorie wilt verwijderen?"><i class="fa fa-trash"></i></a>

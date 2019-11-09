@@ -54,7 +54,7 @@
 
             @foreach($data->portfolio_items as $portfolio_item)
                 <!-- Start Single Portfolio -->
-                    <div class="portfolio portfolio_style--1 {{ $portfolio_item->size == "small" ? "grid-small" : "grid-large" }} {{ str_replace(",", " ", $portfolio_item->keywords) }}">
+                    <div class="pb--30 portfolio portfolio_style--1 {{ $portfolio_item->size == "small" ? "grid-small" : "grid-large" }} {{ str_replace(",", " ", $portfolio_item->keywords) }}">
                         <div class="poss_relative">
                             <div class="thumb">
                                 <img src="/storage/portfolio/{{ $portfolio_item->image }}" alt="Portfolio Images">
