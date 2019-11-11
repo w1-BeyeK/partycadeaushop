@@ -21,6 +21,6 @@ class Portfolio extends Model
     }
 
     public static function overview() {
-        return Portfolio::where("overview", 1)->orderByDesc("created_at")->take(6)->get();
+        return Portfolio::where("overview", 1)->orderByDesc("created_at")->take(12)->get();
     }
 }

@@ -26,8 +26,7 @@
                             <ul class="ft-menu-list bk-hover">
                                 <li><a href="https://slinger-naamslinger.nl/contact/">Contact</a></li>
                                 <li><a href="https://slinger-naamslinger.nl/bedrijven/">Bedrijven</a></li>
-                                <li><a href="https://slinger-naamslinger.nl/verzenden-retouren/">Verzenden & Retouren</a></li>
-                                <li><a href="#">Services</a></li>
+                                <li><a href="https://slinger-naamslinger.nl/contact/">Services</a></li>
                             </ul>
                         </div>
                     </div>
@@ -43,11 +42,10 @@
                                 <p><a href="#">(+31) 0634101802</a></p>
                             </div>
                             <div class="social-share social--transparent text-white">
-                                <a href="#"><i class="fab fa-facebook"></i></a>
-                                <a href="#"><i class="fab fa-twitter"></i></a>
-                                <a href="#"><i class="fab fa-instagram"></i></a>
-                                <a href="#"><i class="fab fa-dribbble"></i></a>
-                                <a href="#"><i class="fab fa-pinterest"></i></a>
+                                <a href="https://www.facebook.com/kraamkadootjes.luiertaarten/"><i class="fab fa-facebook"></i></a>
+                                <a href="https://twitter.com/partyslingers"><i class="fab fa-twitter"></i></a>
+                                <a href="https://www.instagram.com/sandra_partyslingers/"><i class="fab fa-instagram"></i></a>
+                                <a href="https://nl.pinterest.com/partyslingers/"><i class="fab fa-pinterest"></i></a>
                             </div>
                         </div>
                     </div>
@@ -183,7 +181,7 @@
                         <ul class="bk-copyright-menu d-flex bk-hover justify-content-center justify-content-md-start flex-wrap flex-sm-nowrap">
                             <li><a href="#">  </a></li>
                             <li><a href="#">Laatste projects</a></li>
-                            <li><a href="https://slinger-naamslinger.nl/verzenden-retouren/">Contact ons</a></li>
+                            <li><a href="https://slinger-naamslinger.nl/contact/">Contact ons</a></li>
                         </ul>
                     </div>
                 </div>
