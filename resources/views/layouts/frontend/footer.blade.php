@@ -179,8 +179,6 @@
                 <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                     <div class="copyright-left text-md-left text-center">
                         <ul class="bk-copyright-menu d-flex bk-hover justify-content-center justify-content-md-start flex-wrap flex-sm-nowrap">
-                            <li><a href="#">  </a></li>
-                            <li><a href="#">Laatste projects</a></li>
                             <li><a href="https://slinger-naamslinger.nl/contact/">Contact ons</a></li>
                         </ul>
                     </div>

@@ -24,7 +24,7 @@ class Controller extends BaseController
 
         if($category) {
             $category = Category::whereRaw("LOWER(value) = ?", strtolower($category))->where("portfolio", 1)->firstOrFail();
-            $items = Portfolio::where("category_id", $category->id)->get();
+            $items = Portfolio::where("category_id", $category->id)->orderByDesc("updated_at")->get();
 
             $data = new \stdClass();
             $data->category = $category;
